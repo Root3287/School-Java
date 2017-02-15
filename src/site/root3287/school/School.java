@@ -11,6 +11,13 @@ import site.root3287.school.assignments.question.chapter8.Ch8Q6;
 import site.root3287.school.assignments.question.chapter8.Ch8Q7;
 import site.root3287.school.assignments.question.chapter8.Ch8Q8;
 import site.root3287.school.assignments.question.chapter8.Ch8Q9;
+import site.root3287.school.assignments.question.chapter9.Ch9Q1;
+import site.root3287.school.assignments.question.chapter9.Ch9Q2;
+import site.root3287.school.assignments.question.chapter9.Ch9Q3;
+import site.root3287.school.assignments.question.chapter9.Ch9Q4;
+import site.root3287.school.assignments.question.chapter9.Ch9Q5;
+import site.root3287.school.assignments.question.chapter9.Ch9Q6;
+import site.root3287.school.assignments.question.chapter9.Ch9Q7;
 
 
 public class School {
@@ -27,7 +34,15 @@ public class School {
 		Ch8Q9 Ch8Q9 = new Ch8Q9();
 		Ch8Q10 Ch8Q10 = new Ch8Q10();
 		
-		current = Ch8Q10;
+		Ch9Q1 Ch9Q1 = new Ch9Q1();
+		Ch9Q2 Ch9Q2 = new Ch9Q2();
+		Ch9Q3 Ch9Q3 = new Ch9Q3();
+		Ch9Q4 Ch9Q4 = new Ch9Q4();
+		Ch9Q5 Ch9Q5 = new Ch9Q5();
+		Ch9Q6 Ch9Q6 = new Ch9Q6();
+		Ch9Q7 Ch9Q7 = new Ch9Q7();
+		
+		current = Ch9Q7 ;
 		
 		current.main();
 	}
